@@ -33,9 +33,7 @@ The project aims to answer the following business questions:
 
 # Dataset
 
-Database Used: ```AdventureWorks2019```
-
-Datasets Used:
+Datasets Used: ```AdventureWorks2019```
 ```text
 Sales.SalesOrderDetail
 Sales.SalesOrderHeader
@@ -92,38 +90,14 @@ The dataset was accessed through Google BigQuery Studio on Google Cloud Platform
 
 I explored these steps to access the AdventureWorks2019 dataset:
 
-## Method 1
-
 1. Opened Google BigQuery Studio
 2. Navigated to the Explorer panel
 3. Selected `Add Data`
-4. Imported or connected the AdventureWorks2019 database
-5. Accessed the datasets:
-   - `Sales`
-   - `Production`
-   - `Purchasing`
-6. Queried tables such as:
-   - `SalesOrderDetail`
-   - `SalesOrderHeader`
-   - `Product`
-   - `WorkOrder`
-   - `PurchaseOrderHeader`
+4. Selected 'Star a project by name' button at the bottom
+5. Searched 'adventureworks2019'
+6. Clicked 'Star' to star the datasets and explore it on the Explorer panel
 
-![dataset access](screenshots/dataset_access.png)
-
----
-
-## Method 2
-
-1. Used the search bar inside the Explorer panel
-2. Searched for tables such as:
-   - `SalesOrderDetail`
-   - `Product`
-   - `PurchaseOrderHeader`
-3. Opened the corresponding tables directly from the search results
-4. Performed SQL analysis using BigQuery Editor
-
-![table search](screenshots/table_search.png)
+![dataset access](screenshots/adventureworks2019_dataset.PNG)
 
 ---
 
@@ -158,7 +132,7 @@ order by period desc, name;
 
 ### Result
 
-![Query Result](screenshots/query1.png)
+![Query Result](screenshots/query1.PNG)
 
 ---
 
@@ -218,7 +192,7 @@ where rk <= 3;
 
 ### Result
 
-![Query Result](screenshots/query2.png)
+![Query Result](screenshots/query2.PNG)
 
 ---
 
@@ -263,7 +237,7 @@ order by yr desc, rk;
 
 ### Result
 
-![Query Result](screenshots/query3.png)
+![Query Result](screenshots/query3.PNG)
 
 ---
 
@@ -300,7 +274,7 @@ order by 2,1;
 
 ### Result
 
-![Query Result](screenshots/query4.png)
+![Query Result](screenshots/query4.PNG)
 
 ---
 
@@ -360,7 +334,7 @@ order by 1,2;
 
 ### Result
 
-![Query Result](screenshots/query5.png)
+![Query Result](screenshots/query5.PNG)
 
 ---
 
@@ -415,7 +389,7 @@ order by 1,2 desc;
 
 ### Result
 
-![Query Result](screenshots/query6.png)
+![Query Result](screenshots/query6.PNG)
 
 ---
 
@@ -469,7 +443,7 @@ order by 1 desc, ratio desc;
 
 ### Result
 
-![Query Result](screenshots/query7.png)
+![Query Result](screenshots/query7.PNG)
 
 ---
 
@@ -494,7 +468,7 @@ group by 1,2;
 
 ### Result
 
-![Query Result](screenshots/query8.png)
+![Query Result](screenshots/query8.PNG)
 
 ---
 
