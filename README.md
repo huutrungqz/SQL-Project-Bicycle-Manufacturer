@@ -88,6 +88,8 @@ Bicycle-Manufacturer-SQL-Analysis/
 
 The dataset was accessed through Google BigQuery Studio on Google Cloud Platform (GCP).
 
+![dataset access](screenshots/adventureworks2019_datasets.PNG)
+
 I explored these steps to access the AdventureWorks2019 dataset:
 
 1. Opened Google BigQuery Studio
@@ -97,7 +99,7 @@ I explored these steps to access the AdventureWorks2019 dataset:
 5. Searched 'adventureworks2019'
 6. Clicked 'Star' to star the datasets and explore it on the Explorer panel
 
-![dataset access](screenshots/adventureworks2019_dataset.PNG)
+
 
 ---
 
